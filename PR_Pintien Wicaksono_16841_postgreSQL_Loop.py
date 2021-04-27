@@ -44,7 +44,7 @@ def main() :
         port = 5432,
         password = "pitikbalap57")
         cur = con.cursor()
-        cur.execute('''INSERT INTO jasaservice (t_id, t_nama, t_harga) VALUES('4', 'Service esar', 150000);''')  
+        cur.execute('''INSERT INTO jasaservice (t_id, t_nama, t_harga) VALUES('4', 'Service Besar', 150000);''')  
         con.commit()
     elif menu=='3' :
         print("Select/search data")
